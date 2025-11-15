@@ -22,7 +22,6 @@ name = 'Ml Project',
 version = '0.0.1',
 author = 'Somesh',
 author_email = 'biradarsomesh52@gmail.com',
-packages = find_packages,
-install_requires = get_requirements('requiremnts.txt')
-
+packages = find_packages(),
+install_requires = get_requirements('requirements.txt')
 )
